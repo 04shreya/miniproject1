@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    
+        #header{
+            position:fixed;
+            top:0px;
+            background-image: linear-gradient(orange,white,green);
+            width:100%;
+            text-align:center;
+
+        }
+        .grid {
+           display: grid;
+           grid-template-columns: repeat(3, 1fr);
+           grid-gap: 10px;
+           
+        }
+
+       .grid img {
+           width: 100%;
+        }
+        h4{
+            margin-top: 2px;  
+            margin-bottom: 2px;
+            text-align: center;
+            text-decoration-color: aliceblue;
+            
+        }
+        h3{
+            margin-top: 4px;
+        }
+        #mainbox{
+            background-color:black
+        }
+        
+        #footer{
+            width:100%;
+            position:absolute;
+            bottom: 3px;
+            background-color:gray;
+            text-align: center;
+    
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="mainbox">
+    <div id="header">
+        <h1>HISTORICAL PLACES IN INDIA</h1>
+    </div><br><br><br>
+    <button class="btn btn-primary m-3">Destinations</button>
+    <button class="btn btn-primary m-3">Season</button>
+    <button class="btn btn-primary m-3">Hotel</button>
+    <button class="btn btn-primary m-3">Travlogues</button>
+    
+    
+    <div class="grid">
+        <div><img src="redfort.jpeg" width="100x" height="200px"><h4 style="color:white">Red Fort</h4></div>
+        <div><img src="Lotus-Temple2.jpg" width="100px" height="200px"><h4 style="color:white">Lotus Temple</h4></div>
+        <div><img src="download (4).jpg" width="100px" height="200px"><h4 style="color:white">India Gate</h4></div>
+        <div><img src="download (5).jpg" width="100px" height="200px"><h4 style="color:white">Golden Temple</h4></div>
+        <div><img src="agra fort.webp"   width="100px" height="200px"><h4 style="color:white">Agra Fort</h4></div>
+        <div><img src="quturab minar.webp" width="100px" height="200px"><h4 style="color:white">Quturab Minar</h4></div>
+      </div>
+      <hr>
+      <div align="left">
+       
+        <h5 class="btn btn-success m-3">@jet priviling pvt.ltd.All right reserved</h5>
+      </div>
+
+
+    <div id="footer">
+        <h3>Designed and Devloped By : Shreya Ghatge</h3>
+    </div>
+    </div>
+</body>
+</html>
